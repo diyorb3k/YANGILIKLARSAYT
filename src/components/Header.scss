@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+header {
+  background-color: coral;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+nav {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
