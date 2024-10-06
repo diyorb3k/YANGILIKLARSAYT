@@ -22,7 +22,6 @@ const Header = () => {
             </li>
             <div className="Antd_btn">
             <Button type="primary">Kirish</Button>
-            <Button type="primary">Ruyhatdqan utish</Button>
 
             </div>
           </ul>
