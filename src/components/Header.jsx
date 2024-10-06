@@ -1,4 +1,5 @@
 import "./Header.scss";
+import { Button } from 'antd';
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
@@ -19,8 +20,10 @@ const Header = () => {
             <li>
               <NavLink to="/about">About</NavLink>
             </li>
-            <div>
-              <button>Login in</button>
+            <div className="Antd_btn">
+            <Button type="primary">Kirish</Button>
+            <Button type="primary">Ruyhatdqan utish</Button>
+
             </div>
           </ul>
           
