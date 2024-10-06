@@ -19,7 +19,11 @@ const Header = () => {
             <li>
               <NavLink to="/about">About</NavLink>
             </li>
+            <div>
+              <button>Login in</button>
+            </div>
           </ul>
+          
         </nav>
       </div>
     </header>
