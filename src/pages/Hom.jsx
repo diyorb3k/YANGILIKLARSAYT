@@ -11,14 +11,16 @@ const Hom = () => {
       .then((response) => {
         setData(response.data.articles);
       })
-      .catch((error) => console.error("Xato:", error));
+      .catch((error) => console.log("Xato:", error));
   }, []);
 
   return (
     <div className="container">
+      
       {data &&
         data.map((article) => (
           <div>
+          
             <div key={article.url}>
             <p>{article.title}</p>
             <p>{article.content}</p>
@@ -29,6 +31,8 @@ const Hom = () => {
           </div>
           </div>
         ))}
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque a repellendus cupiditate nobis rem blanditiis reiciendis, vel quis aperiam hic provident voluptate quod temporibus tempore est harum ipsam odit? Suscipit.
     </div>
   );
 };
