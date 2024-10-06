@@ -3,7 +3,6 @@ import React, { Suspense, lazy } from 'react';
 import Header from './components/Header';
 
 
-// Lazy yuklanadigan komponentni import qilish
 const LazyComponent = lazy(() => import('./components/LazyComponent'));
 const Hom =lazy(()=>import('./pages/Hom'))
 const Contact = lazy(()=>import('./pages/Contact'))
