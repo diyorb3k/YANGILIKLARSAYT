@@ -17,22 +17,23 @@ const Hom = () => {
   return (
     <div className="container">
       
+      <div className="data">
       {data &&
         data.map((article) => (
-          <div>
+          <div className="card">
           
             <div key={article.url}>
-            <p>{article.title}</p>
+            <img src={article.urlToImage} alt="img yuq" />
+            <h3>{article.title}</h3>
             <p>{article.content}</p>
-            <img src={article.urlToImage} alt="" />
             <p> vaqti{article.publishedAt}</p>
             <p>{article.description}</p>
             <p>{}</p>
           </div>
           </div>
         ))}
+      </div>
 
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque a repellendus cupiditate nobis rem blanditiis reiciendis, vel quis aperiam hic provident voluptate quod temporibus tempore est harum ipsam odit? Suscipit.
     </div>
   );
 };

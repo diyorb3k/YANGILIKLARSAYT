@@ -5,6 +5,9 @@
   list-style: none;
   text-decoration: none;
 }
+body{
+  background-color: rgb(179, 223, 223);
+}
 .container {
   max-width: 1330px;
   width: 100%;
@@ -16,7 +19,8 @@ header {
   background-color: coral;
   position: fixed;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
+  top: 0;
 }
 nav {
   padding: 10px 0px 10px 0px;
@@ -29,4 +33,23 @@ nav {
     width: 100%;
     justify-content: space-between;
   }
+}
+.card{
+  max-width: 320px;
+  width: 100%;
+  background-color:#fff;
+  border-radius: 8px;
+padding: 10px;
+  margin-top: 100px;
+  img{
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
+.data{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-left: 120px;
 }
